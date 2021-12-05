@@ -2,8 +2,6 @@
 # coding: utf-8
 
 import webbrowser
-from pywinauto import Application
-import sys
 import pyautogui
 import pyperclip
 import time

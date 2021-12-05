@@ -1,1 +1,1 @@
-conda activate python38 
+conda.bat activate python38 
