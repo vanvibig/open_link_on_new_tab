@@ -15,7 +15,7 @@ import time
 
 pyautogui.hotkey('alt', 'tab')
 time.sleep(0.3)
-pyautogui.click(x=872, y=64)
+pyautogui.click(x=1330, y=116)
 # pyautogui.hotkey('ctrl', 'a')
 pyautogui.hotkey('ctrl', 'l')
 pyautogui.hotkey('ctrl', 'c')
@@ -23,7 +23,7 @@ pyautogui.hotkey('ctrl', 'c')
 
 
 
-chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
+chrome_path = 'C:/Program Files/Google/Chrome/Application/chrome.exe %s'
 
 # current_link = "https://metruyenchu.com/truyen/ta-that-khong-co-at-chu-bai/chuong-57"
 # current_link = sys.argv[1]
@@ -42,6 +42,6 @@ chapter = int(current_link.rpartition('-')[-1])
 for i in range(1, 20):
     next_chapter_link = next_chapter + str((chapter + i))
     print(next_chapter_link)
-    webbrowser.get(chrome_path).open(next_chapter_link)
+    webbrowser.get(chrome_path).open_new_tab(next_chapter_link)
 
 # cmd >>> python open_link_on_new_tab.py https://metruyenchu.com/truyen/ta-chinh-la-khong-theo-sao-lo-ra-bai/chuong-1 1
