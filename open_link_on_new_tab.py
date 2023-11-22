@@ -15,7 +15,7 @@ import time
 
 pyautogui.hotkey('alt', 'tab')
 time.sleep(0.3)
-pyautogui.click(x=1330, y=116)
+pyautogui.click(x=1126, y=117)
 # pyautogui.hotkey('ctrl', 'a')
 pyautogui.hotkey('ctrl', 'l')
 pyautogui.hotkey('ctrl', 'c')
